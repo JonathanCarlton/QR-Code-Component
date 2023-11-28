@@ -1,0 +1,49 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.component {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 300px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.image {
+    flex: 1 1 auto;
+    margin: 14px;
+    
+}
+
+.text-area-1 {
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin: 0px 20px;
+}
+
+.text-area-2 {
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin: 20px;
+    font-size: 15px;
+}
+
+p {
+    margin: 0;
+}
